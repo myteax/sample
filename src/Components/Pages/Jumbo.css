@@ -1,0 +1,132 @@
+.cont1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    /* background-color: red; */
+}
+
+
+.cont {
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: grey; */
+    width: 80%;
+    height: 400px;
+    display: flex;
+    padding: 20px;
+}
+
+.header {
+    position: relative;
+    width: 80%;
+
+}
+
+.header1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 60px;
+    /* margin-left: 140px; */
+}
+
+.header2 {
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: 70;
+    /* margin-left: 140px; */
+    color: rgb(131, 131, 131);
+}
+
+.bb {
+    padding-top: 20px;
+
+    /* margin-left: 140px; */
+}
+
+.imgdiv {
+    position: relative;
+    width: 30em;
+    /* margin-left: 50px; */
+}
+
+.image1 {
+    position: relative;
+    width: 30em;
+    height: 18em;
+    /* background-color: red; */
+}
+
+@media screen and (max-width: 380px) {
+
+    .cont1 {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        /* background-color: red; */
+        height: 350px;
+    }
+
+    .cont {
+        margin-left: 0;
+        margin-right: 0;
+        /* background-color: grey; */
+        width: 100%;
+        height: 400px;
+        display: flex;
+        /* padding: 20px; */
+    }
+
+    .imgdiv {
+        position: relative;
+        width: 30em;
+        margin-left: -30px;
+    }
+}
+
+@media screen and (max-width: 682px) {
+    .cont {
+        margin-left: auto;
+        margin-right: auto;
+        /* background-color: grey; */
+        height: 400px;
+        display: flex;
+        padding: 10px;
+    }
+
+    .cont1 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .header1 {
+        font-size: 35px;
+        font-weight: bold;
+        margin-top: 60px;
+    }
+
+    .header2 {
+        padding-top: 10px;
+        font-size: 20px;
+        font-weight: 70;
+        color: rgb(131, 131, 131);
+    }
+
+    .bb {
+        padding-top: 20px;
+    }
+
+    .imgdiv {
+        /* position: relative; */
+        width: 10em;
+        z-index: 3;
+    }
+
+    .image1 {
+        /* position: relative; */
+        width: 10em;
+        height: 15em;
+        z-index: 3;
+    }
+
+}

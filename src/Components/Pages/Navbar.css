@@ -1,0 +1,198 @@
+.Navbar {
+    position: relative;
+    display: flex;
+    width: auto;
+    /* background-color: red; */
+
+}
+
+.Container {
+    /* position: relative; */
+    padding: 20px;
+    margin: 10px;
+    left: auto;
+    right: auto;
+    /* background-color: red; */
+}
+
+.navnav {
+    display: flex;
+    position: absolute;
+    right: 0;
+
+    width: auto;
+    /* text-align: justify; */
+
+}
+
+.links {
+    list-style: none;
+    /* text-align: justify; */
+    width: 100px;
+    /* left: 30em; */
+    font-size: 16px;
+    color: rgb(18, 29, 34);
+    text-decoration: none;
+    font-weight: 600;
+    /* align-items: center; */
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 20%;
+    /* background-color: red; */
+}
+
+.menuicon {
+    visibility: hidden;
+
+}
+
+@media screen and (max-width: 682px) {
+    .links {
+        list-style: none;
+        /* text-align: justify; */
+        width: 100px;
+        left: 30%;
+        font-size: 16px;
+        color: rgb(18, 29, 34);
+        text-decoration: none;
+        font-weight: 600;
+        /* align-items: center; */
+        margin-left: 0px;
+        margin-right: 10px;
+        text-align: center;
+        border-radius: 20%;
+        z-index: 30;
+    }
+
+    @keyframes fadeout {
+        from {
+            opacity: 1;
+        }
+
+        to {
+            opacity: 0;
+        }
+    }
+
+    .menuicon {
+        visibility: visible;
+        position: absolute;
+        right: 0;
+        top: 25px;
+        animation-name: fadeout;
+        animation-duration: 2s;
+        z-index: 30;
+    }
+
+    .navnav {
+        visibility: hidden;
+    }
+}
+
+
+@media screen and (max-width: 380) {
+    .navnav {
+        display: flex;
+        position: absolute;
+        right: 0px;
+
+        width: auto;
+        /* text-align: justify; */
+
+    }
+
+    .links {
+        list-style: none;
+        /* text-align: justify; */
+        width: 100px;
+        left: 30%;
+        font-size: 16px;
+        color: rgb(18, 29, 34);
+        text-decoration: none;
+        font-weight: 600;
+        /* align-items: center; */
+        margin-left: 0px;
+        margin-right: 10px;
+        text-align: center;
+        border-radius: 20%;
+        z-index: 30;
+    }
+
+    @keyframes fadeout {
+        from {
+            opacity: 1;
+        }
+
+        to {
+            opacity: 0;
+        }
+    }
+
+    .menuicon {
+        visibility: visible;
+        position: absolute;
+        right: 0;
+        top: 25px;
+        animation-name: fadeout;
+        animation-duration: 2s;
+        z-index: 30;
+    }
+
+    .navnav {
+        visibility: hidden;
+    }
+}
+
+.Navbar-cont {
+    font-size: 22px;
+    color: rgb(155, 155, 155);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+@keyframes example {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.nav-show {
+    background-color: rgb(247, 247, 247);
+    position: absolute;
+    right: 0px;
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+    line-height: 45px;
+    text-align: center;
+    animation-name: example;
+    animation-duration: 2s;
+    z-index: 30;
+    transition: all 0.3s ease-out;
+
+}
+
+li:hover {
+    background-color: rgb(230, 245, 240);
+}
+
+@keyframes example2 {
+    from {}
+
+    to {}
+}
+
+
+.nav-show li {
+    position: relative;
+    /* text-align: center; */
+    animation-name: example2;
+    animation-duration: 2s;
+    z-index: 30;
+
+}
