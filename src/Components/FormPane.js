@@ -30,7 +30,6 @@ const FormPane = () => {
       })
       .catch((err) => {
         if (err) {
-          console.log(err);
         }
       });
   };
