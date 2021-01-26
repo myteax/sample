@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { useState, useEffect } from "react";
+import CompletedOrders from "./Components/AdminComp/CompletedOrders";
+import NewOrder from "./Components/AdminComp/NewOrder";
+import UpdateOrders from "./Components/AdminComp/UpdateOrders";
+import AdminPanel from "./Components/AdminPanel";
+import FormPane from "./Components/FormPane";
+import FormViewer from "./Components/FormViewer";
 
 function App() {
+  const [num, setnum] = useState(0);
+
+  useEffect(() => {
+    console.log("loaded o");
+  }, []);
+
+  const ssnum = (x) => {
+    setnum(x);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AdminPanel changeMenu={ssnum} />
+      {num === 0 && <FormPane />}
+
+      {num === 1 && <NewOrder />}
+      {num === 2 && <UpdateOrders />}
+      {num === 3 && <CompletedOrders />}
+
+      {/*  */}
+      {/*  */}
+      {/* */}
     </div>
   );
 }

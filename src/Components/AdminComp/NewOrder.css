@@ -1,0 +1,103 @@
+.tr_divsize {
+    margin-right: 26px;
+    margin-left: 22px;
+    font-family: Andada, serif;
+    margin-bottom: 20px;
+  }
+  
+  .tr_inp323 {
+    width: 60%;
+    height: 40px;
+  }
+  
+  .tr_divjw3 {
+    margin-top: 26px;
+    margin-left: 0;
+  }
+  
+  .tr_divwiw {
+    margin-left: 11px;
+    margin-bottom: 2px;
+    margin-top: 0px;
+    color: var(--light);
+    background: var(--success);
+  }
+  
+  .tr_span28948r {
+    position: relative;
+    color: var(--success);
+    font-size: 14px;
+    font-style: italic;
+    font-family: Andada, serif;
+    /* margin-top: -30px !important; */
+  }
+  
+  .tr_jwe {
+    text-align: center;
+  }
+  
+  .tr_divsize.tr_ssi3i {
+    position: relative;
+    text-align: center;
+    font-family: Andada, serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100rem;
+  }
+  
+  @media (max-width: 360px) {
+    .tr_divsize.tr_ssi3i {
+      position: relative;
+      text-align: center;
+      font-family: Andada, serif;
+      font-size: 16px;
+      font-weight: 400;
+      width: auto;
+    }
+  }
+  
+  .col.tr_djwo43 {
+    margin-top: 25px;
+  }
+  
+  .tr_div_brn {
+    margin-top: 8px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .tr_btn423 {
+    background: var(--success);
+  }
+  
+  .form-control.tr_inp323.tr_fjow {
+    width: 80%;
+  }
+  
+  .form-control.tr_joer84 {
+  }
+
+  .tr_emailal{
+    margin-left: 40px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .tr_djslie2{
+    color: var(--success);
+    font-size: 20px;
+    margin-top: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .tr_jdsoe1{ 
+    text-align: center;
+  }
+  
+  .tr_jdsoe2{
+    color: var(--danger);
+    text-align: center;
+  }

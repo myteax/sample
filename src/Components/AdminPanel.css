@@ -1,0 +1,11 @@
+.tr_dji21 {
+    color: var(--success);
+  }
+  
+  .tr_linka {
+    color: rgb(7,115,31) !important;
+    font-family: Andada, serif;
+    font-size: 17px;
+    font-weight: 500;
+    margin-right: 20px;
+  }

@@ -1,0 +1,29 @@
+.cxdisabled{
+    pointer-events: none;
+
+    /* for "disabled" effect */
+    opacity: 0.3;
+    background: #CCC;
+}
+
+
+.tr_snie92{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: 30px;
+    -webkit-transform: translateX(-50%);
+transform: translateX(-50%);
+
+font-weight: 600;
+    
+    
+}
+
+.tr_jfslk233{
+    background-color: rgb(255, 247, 247);
+}
+
+.tr_tways{
+    background: transparent !important;
+}
